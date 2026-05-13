@@ -1,0 +1,48 @@
+body {
+    background-image: url(bilder/gemini.png);
+    background-size: cover;
+}
+
+h1 {
+    color: #C9A84C;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Cinzel Decorative', serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 60px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 40px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #d4c9a8;
+    font-family: 'Cinzel', serif;
+}
+
+button {
+    background-color: #C0392B;
+    font-family: 'Cinzel', serif;
+}
+
+nav a {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C9A84C;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
