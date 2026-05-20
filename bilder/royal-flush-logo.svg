@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 100" width="280" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8c97a"/>
+      <stop offset="50%" style="stop-color:#C9A84C"/>
+      <stop offset="100%" style="stop-color:#a07830"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark green background -->
+  <rect width="280" height="100" rx="8" fill="#0d3d2a"/>
+
+  <!-- Gold box for crown -->
+  <rect x="16" y="18" width="64" height="64" rx="10" fill="url(#goldGrad)"/>
+
+  <!-- Crown shape inside gold box -->
+  <g transform="translate(48, 44)">
+    <!-- Crown base bar -->
+    <rect x="-18" y="12" width="36" height="7" rx="2" fill="#0d3d2a"/>
+    <!-- Crown body -->
+    <polygon points="-18,12 -18,-4 -8,4 0,-8 8,4 18,-4 18,12" fill="#0d3d2a"/>
+    <!-- 3 dots on top of crown points -->
+    <circle cx="-18" cy="-4" r="2.5" fill="#0d3d2a"/>
+    <circle cx="0" cy="-8" r="2.5" fill="#0d3d2a"/>
+    <circle cx="18" cy="-4" r="2.5" fill="#0d3d2a"/>
+  </g>
+
+  <!-- Royal Flush text -->
+  <text x="100" y="52"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="26"
+    font-weight="bold"
+    fill="#C9A84C"
+    letter-spacing="1">Royal Flush</text>
+
+  <!-- ONLINE CASINO subtext -->
+  <text x="102" y="70"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="11"
+    fill="#C9A84C"
+    letter-spacing="5"
+    opacity="0.85">ONLINE CASINO</text>
+
+</svg>

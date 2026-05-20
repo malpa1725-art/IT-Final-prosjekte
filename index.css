@@ -1,10 +1,17 @@
 body {
-    background-image: url(bilder/gemini.png);
+    background-image: url(bilder/gemini2.png);
     background-size: cover;
 }
 
+#hero {
+    width: 100%;
+}
+
 h1 {
-    color: #C9A84C;
+    background: linear-gradient(135deg, #e8c97a, #C9A84C, #a07830);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Cinzel Decorative', serif;
 }
@@ -12,19 +19,24 @@ h1 {
 nav {
     display: flex;
     align-items: center;
-    padding: 30px;
-    gap: 60px;
+    padding: 20px;
+    gap: 30px;
+    position: sticky;
 }
 
 .container1 {
     display: flex;
     align-items: center;
     padding: 10px;
-    gap: 40px;
+    gap: 30px;
 }
 
 h2 {
-    color: #ffffff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 p {
@@ -35,14 +47,29 @@ p {
 button {
     background-color: #C0392B;
     font-family: 'Cinzel', serif;
+    width: fit-content;
 }
 
 nav a {
     font-family: 'Cinzel', serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #C9A84C;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 17px;
     font-weight: 700;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+nav img {
+    width: 15%;
+}
+
+.textbox {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 50px;
+    gap: 25px;
 }
