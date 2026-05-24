@@ -48,8 +48,18 @@ button {
     background-color: #C0392B;
     font-family: 'Cinzel', serif;
     width: fit-content;
+    border: 0;
+    border-radius: 5px;
+    font-optical-sizing: auto;
+    padding: 5px;
+    font-size: large;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    cursor: pointer;
+    
 }
-
+button:hover{
+    background-color: #a13124;
+}
 nav a {
     font-family: 'Cinzel', serif;
     letter-spacing: 2px;
