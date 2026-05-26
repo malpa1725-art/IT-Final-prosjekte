@@ -10,4 +10,42 @@ img {
     display: block;
     width: 100%;
 }
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    position: sticky;
+}
+nav a {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
 
+nav img {
+    width: 15%;
+}
+a{
+    display: inline-block;
+    transition: 0.3s ease;
+    padding: 10px;
+    border-radius: 50%;
+}
+a:hover{
+    background: rgba(255, 200, 0, 0.15);
+  box-shadow:
+    0 0 10px #ffc800,
+    0 0 30px #ffc800,
+    0 0 60px #ffc800,
+    inset 0 0 20px rgba(255, 200, 0, 0.2);
+  text-shadow:
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
