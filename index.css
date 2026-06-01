@@ -60,3 +60,39 @@ button:hover{
     padding-top: 50px;
     gap: 25px;
 }
+@media (width<1150px) { 
+    body {
+    background-image: url(bilder/gemini2.png);
+    background-repeat: no-repeat;
+    background-color: #0a1916;
+}
+}
+@media (width<850px){
+    h2{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+@media (width<750px){
+    h1{
+        font-size: 26px;
+    }
+}
+@media (width<700px){
+    h1{
+        font-size: 16px;
+    }
+}
+@media (width<500px){
+    h1{
+        font-size: 24px;
+    }
+    .textbox{
+        padding-left: 20px;
+    }
+}
