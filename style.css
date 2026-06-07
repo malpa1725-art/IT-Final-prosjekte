@@ -35,17 +35,10 @@ a{
     display: inline-block;
     transition: 0.3s ease;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 16px;
 }
 a:hover{
-    background: rgba(255, 200, 0, 0.15);
-  box-shadow:
-    0 0 10px #ffc800,
-    0 0 30px #ffc800,
-    0 0 60px #ffc800,
-    inset 0 0 20px rgba(255, 200, 0, 0.2);
-  text-shadow:
-    0 0 8px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff;
+    background: white;
+    box-shadow: 0 0 30px rgb(255, 200, 0);
+    color: black;
 }

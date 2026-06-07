@@ -36,20 +36,23 @@ p {
 }
 
 button {
-    background-color: #C0392B;
     font-family: 'Cinzel', serif;
-    width: fit-content;
-    border: 0;
-    border-radius: 5px;
-    font-optical-sizing: auto;
-    padding: 5px;
-    font-size: large;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 36px;
+    background: rgb(255, 200, 0);
+    color: black;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s ease;
+    width: fit-content;
     
 }
 button:hover{
-    background-color: #a13124;
+    background: white;
+    box-shadow: 0 0 30px rgb(255, 200, 0);
 }
 
 .textbox {
