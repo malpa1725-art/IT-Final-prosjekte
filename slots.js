@@ -88,10 +88,12 @@ function checkWin(results) {
     const allMatch = results[0] === results[1] && results[1] === results[2];
  
     if (allMatch) {
-        let multiplier = 5;
-        if      (results[0] === 'crown')   multiplier = 20;
-        else if (results[0] === 'star')    multiplier = 12;
-        else if (results[0] === 'diamond') multiplier = 8;
+        let multiplier = 3;
+        if      (results[0] === 'bell')   multiplier = 4;
+        else if (results[0] === 'heart')    multiplier = 6;
+        else if (results[0] === 'diamond')    multiplier = 8;
+        else if (results[0] === 'star') multiplier = 15;
+        else if (results[0] === 'crown')    multiplier = 25;
  
         const winAmount = bet * multiplier;
         balance += winAmount;
