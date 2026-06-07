@@ -18,7 +18,7 @@ function getSymbol() {
 let balance = 100;
 let bet = 10;
 const minBet = 5; 
-const maxBet = 50;
+const maxBet = 100;
  
 function updateDisplay() {
     document.getElementById('balance').textContent = balance;
