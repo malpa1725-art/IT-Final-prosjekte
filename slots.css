@@ -1,6 +1,5 @@
 
 #hero{
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +19,7 @@ body{
 .slot-machine{
     width: 60%;
     max-width: 800px;
-    min-height: 500px;
+    min-height: 380px;
     background: rgba(0, 0, 0, 0.55);
     border: solid 2px rgb(255, 200, 0);
     border-radius: 16px;
@@ -28,6 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-top: 4%;
 }
 .bokser{
     display: flex;
@@ -117,6 +117,7 @@ body{
 .bet-control button:hover {
     background: rgb(255, 255, 255);
 }
+
 @keyframes spinBoks {
     0%   { transform: rotateX(0deg);    opacity: 1; }
     40%  { transform: rotateX(600deg);  opacity: 0.8; }
@@ -126,4 +127,19 @@ body{
 }
 .spinning {
     animation: spinBoks 1.4s ease-out;
+}
+@media (width<1300px){
+    .slot-machine{
+        margin-top: 6%;
+    }
+}
+@media (width<1100px){
+    .slot-machine{
+        margin-top: 8%;
+    }
+}
+@media (width<00px){
+    .slot-machine{
+        margin-top: 10%;
+    }
 }
